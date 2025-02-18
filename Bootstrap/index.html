@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naipunyam login Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        .double-line {
+          border-bottom: 4px double #000; 
+          margin-top: 30px;
+         
+          width:100%;
+
+
+        }
+      </style>
+</head>
+<body class="m-5 p-4">
+    <div class="double-line">
+        <button type="button" class="btn btn-danger">Personal information</button>
+    </div><br>
+    <div class="row">
+    <div class="mb-3 col p-3">
+        <label for="dob" class="form-label">Date of Birth<span class="required">*</span></label>
+        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="" required>
+
+      </div>
+      <div class="mb-3 col p-3">
+        <label for="aadharnumber" class="form-label">Aadhar Number</label>
+        <input type="text" class="form-control" id="aadharnumber" placeholder="">
+        
+      </div>
+      <div class="mb-3 col p-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        
+      </div>
+    </div>
+
+    <div class="row">
+
+    <div class="mb-3 col p-3">
+        <label for="name" class="form-label">Father Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        
+      </div>
+      <div class="mb-3 col p-3">
+        <label for="number" class="form-label">Age</label>
+        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+        
+      </div>
+      <div class="mb-3 col p-3">
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select class="form-control" id="gender" name="gender">
+          <option value="" disabled selected>Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    </div>
+
+</div> 
+<div class="row">
+    <div class="mb-3 col p-3">
+        <div class="form-group">
+          <label for="gender">Maritial Status</label>
+          <select class="form-control" id="gender" name="gender">
+            <option value="" disabled selected></option>
+            <option value="male">Married</option>
+            <option value="female">Un married</option>
+            
+          </select>
+        </div>
+      </div>
+      <div class="mb-3 col p-3">
+        <div class="form-group">
+          <label for="gender">Religion</label>
+          <select class="form-control" id="gender" name="gender">
+            <option value="" disabled selected></option>
+            <option value="male">Hindu</option>
+            <option value="female">Christan</option>
+            <option value="other">Muslim</option>
+          </select>
+        </div>
+      </div>
+      <div class="mb-3 col p-3">
+        <div class="form-group">
+          <label for="gender">Category</label>
+          <select class="form-control" id="gender" name="gender">
+            <option value="" disabled selected></option>
+            <option value="male">OC</option>
+            <option value="female">BC</option>
+            <option value="other">SC&ST</option>
+          </select>
+        </div>
+      </div>
+</div> 
+<div class="row">
+    <div class="mb-3 col p-3">
+        <div class="form-group">
+          <label for="gender">Are you a resident of Ap state</label>
+          <select class="form-control" id="gender" name="gender">
+            <option value="" disabled selected></option>
+            <option value="male">Yes</option>
+            <option value="female">No</option>
+            
+          </select>
+        </div>
+      </div>
+      <div class="mb-3 col p-3">
+        <div class="form-group">
+          <label for="gender">Disability</label>
+          <select class="form-control" id="gender" name="gender">
+            <option value="" disabled selected></option>
+            <option value="male">Yes</option>
+            <option value="female">No</option>
+            
+          </select>
+        </div>
+      </div>
+      <div class="mb-3 col p-3">
+        
+      </div>
+</div>
+<div class="row">
+<div class="mb-3">
+    <label for="file" class="form-label">Upload Profile Photo</label>
+    <input type="file" class="form-control" id="file" name="file" accept="image/*, .pdf, .docx">
+  </div>
+  <div class="mb-3 col p-3">
+        
+  </div>
+  <div class="mb-3 col p-3">
+        
+  </div>
+</div>
+
+
+  <div class="double-line">
+    <button type="button" class="btn btn-danger">Contact Information</button>
+</div><br>
+<div class="row">
+<div class="mb-3 col p-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+  </div>
+  <div class="mb-3 col p-3">
+    <label for="mobile" class="form-label">Mobile Number</label>
+    <input type="tel" class="form-control" id="mobile" placeholder="">
+    
+  </div>
+  <div class="mb-3 col p-3">
+    <label for="mobile" class="form-label">Alternative Mobile Number</label>
+    <input type="tel" class="form-control" id="mobile" placeholder="">
+    
+  </div>
+</div><br>
+<div class="double-line">
+    <button type="button" class="btn btn-danger">Login Credinals</button>
+</div><br>
+<div class="row">
+
+    <div class="mb-3 col p-3">
+        <label for="name" class="form-label">User Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        
+      </div>
+      <div class="mb-3 col p-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="">
+        
+      </div>
+      <div class="mb-3 col p-3">
+        <label for="password" class="form-label">Re-Enter Password</label>
+        <input type="password" class="form-control" id="password" placeholder="">
+        
+      </div>
+      </div><br>
+
+      <div class="double-line">
+        <button type="button" class="btn btn-danger">Communication Address</button>
+    </div><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Rural</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">urban</label>
+      </div>
+
+      <div class="row">
+        <div class="mb-3 col p-3">
+            <div class="form-group">
+              <label for="gender">state</label>
+              <select class="form-control" id="gender" name="gender">
+                <option value="" disabled selected></option>
+                <option value="male">Andhra pradesh</option>
+                <option value="female">Telamgana</option>
+                <option value="female">thamilnadu</option>
+                <option value="female">kerala</option>
+                <option value="female">karnataka</option>
+                <option value="female">U.P</option>
+                <option value="female">madhya pradesh</option>
+                <option value="female">gujarath</option>
+                <option value="female">rajasthan</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="mb-3 col p-3">
+            <div class="form-group">
+              <label for="gender">District</label>
+              <select class="form-control" id="gender" name="gender">
+                <option value="" disabled selected></option>
+                <option value="male">Krishna</option>
+                <option value="female">guntur</option>
+                <option value="other">Ntr</option>
+                <option value="female">palanadu</option>
+                <option value="female">west godhavari</option>
+                <option value="female">East godhavari</option>
+                <option value="female">kurnool</option>
+                <option value="female">kadapa</option>
+              </select>
+            </div>
+          </div>
+          <div class="mb-3 col p-3">
+            <div class="form-group">
+              <label for="gender">Mandal</label>
+              <select class="form-control" id="gender" name="gender">
+                <option value="" disabled selected></option>
+                <option value="male">Amaravathi</option>
+                <option value="female">Milavaram</option>
+                <option value="other">Nandhyal</option>
+                <option value="female">thullur</option>
+                <option value="female">prathipadu</option>
+                <option value="female">ponnur</option>
+              </select>
+            </div>
+          </div>
+    </div> 
+    <div class="row">
+        <div class="mb-3 col p-3">
+            <div class="form-group">
+              <label for="gender">Parliment Constituency</label>
+              <select class="form-control" id="gender" name="gender">
+                <option value="" disabled selected></option>
+                <option value="male">Yes</option>
+                <option value="female">No</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="mb-3 col p-3">
+            <div class="form-group">
+              <label for="gender">Assembly Constituency</label>
+              <select class="form-control" id="gender" name="gender">
+                <option value="" disabled selected></option>
+                <option value="male">Yes</option>
+                <option value="female">No</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="mb-3 col p-3">
+            <label for="houseNumber" class="form-label">House No</label>
+            <input type="text" class="form-control" id="houseNumber" placeholder="7-36">
+            
+          </div>
+    </div>
+    <div class="row">
+        <div class="mb-3 col p-3">
+            <label for="wardNumber" class="form-label">Ward No</label>
+            <input type="text" class="form-control" id="wardNumber" placeholder="5" required>
+            
+          </div>
+          <div class="mb-3 col p-3">
+            <label for="street" class="form-label">Street</label>
+            <input type="text" class="form-control" id="text" placeholder="kalpathatuv">
+            
+          </div>
+          <div class="mb-3 col p-3">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="text" placeholder="vijayawada">
+            
+          </div>
+
+
+    </div>
+    <div class="row">
+        <div class="mb-3 col p-3">
+            <label for="number" class="form-label">Pincode</label>
+            <input type="text" class="form-control" id="number" placeholder="52141">
+            
+          </div>
+          <div class="mb-3 col p-3">
+        
+          </div>
+          <div class="mb-3 col p-3">
+                
+          </div>
+    </div><br><br>
+    <button type="button" class="btn btn-primary">Next</button>
+</body>
+</html>
