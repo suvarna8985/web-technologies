@@ -1,0 +1,94 @@
+TEXT-1                             WEB TECHNOLOGIES                                 Date:20-06-2025
+1)What does HTML stand for?
+A.	Home Tool Markup Language
+B.	Hyper Text Markup Language
+C.	Hyperlinks and Text Markup Language
+2)Choose the correct HTML element for the largest heading:
+A.	<h6>
+B.	<heading>
+C.	<head>
+D.	<h1>
+3)What is the correct HTML for adding a background color?
+A.	<body style="background-color:yellow;">
+B.	<background>yellow</background>
+C.	<body bg="yellow">
+4)Choose the correct HTML element to define important text
+A.	<b>
+B.	<i>
+C.	<important>
+D.	<strong>
+5)What is the correct HTML for creating a hyperlink?
+A.	<a href="http://www.w3schools.com">W3Schools</a>
+B.	<a name="http://www.w3schools.com">W3Schools.com</a>
+C.	<a>http://www.w3schools.com</a>
+D.	<a url="http://www.w3schools.com">W3Schools.com</a>
+6)Which character is used to indicate an end tag?
+A.	*
+B.	^
+C.	<
+D.	/
+7)How can you open a link in a new tab/browser window?
+A.	<a href="url" target="_blank">
+B.	<a href="url" new>
+C.	<a href="url" target="new">
+8)Which of these elements are all <table> elements?
+A.	<thead><body><tr>
+B.	<table><head><tfoot>
+C.	<table><tr><tt>
+D.	<table><tr><td>
+9)How can you make a numbered list?
+A.	<list>
+B.	<dl>
+C.	<ul>
+D.	<ol>
+10)What is the correct HTML for making a checkbox?
+A.	<checkbox>
+B.	<input type="check">
+C.	<input type="checkbox">
+D.	<check>
+11)What is the correct HTML for making a text input field?
+A.	<textfield>
+B.	<input type="textfield">
+C.	<textinput type="text">
+D.	<input type="text">
+12)What is the correct HTML for making a drop-down list?
+A.	<input type="dropdown">
+B.	<select>
+C.	<list>
+D.	<input type="list">
+13)What is the correct HTML for inserting an image?
+i.	<img alt="MyImage">image.gif</img>
+ii.	<img src="image.gif" alt="MyImage">
+iii.	<img href="image.gif" alt="MyImage">
+iv.	<image src="image.gif" alt="MyImage">
+14)Which doctype is correct for HTML5?
+A.	<!DOCTYPE html>
+B.	<!DOCTYPE HTML5>
+C.	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0//EN" "http://www.w3.org/TR/html5/strict.dtd">
+15)Which HTML element defines navigation links?
+A.	<nav>
+B.	<navigate>
+C.	<navigation>
+
+16)What is the structure of a HTML?
+17)What is css?How many ways to add css to html code ? What are those?
+18)What is work organization ? what are the roles in web team?
+19)Define padding ? what are the UI components?
+20)What are the semantic elements and non semantic elements?Define Frontend and Backend?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

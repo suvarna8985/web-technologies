@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Flow Demo</title>
+</head>
+<body>
+  <!-- Step 1: Login Screen (Start of User Journey) -->
+  <div id="loginSection">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="login()">Start</button>
+  </div>
+
+  <!-- Step 2: Upload Screen (User Goal 1: Upload Media) -->
+  <div id="uploadSection" style="display:none;">
+    <h2>Welcome, <span id="userDisplay"></span></h2>
+    <input type="text" id="media" placeholder="Enter media name">
+    <button onclick="uploadMedia()">Upload</button>
+  </div>
+
+  <!-- Step 3: View Media Screen (User Goal 2: View Result) -->
+  <div id="mediaSection" style="display:none;">
+    <h3>Your Uploaded Media</h3>
+    <ul id="mediaList"></ul>
+  </div>
+
+  <script>
+    const users = {};  // Step A: Store users and their media
+    let currentUser = null;
+
+    function login() {
+      const name = document.getElementById("username").value;
+      if (!name) {
+        alert("Please enter your name.");
+        return;
+      }
+      if (!users[name]) users[name] = [];  // New user entry
+      currentUser = name;
+
+      // Show next section (upload), hide login
+      document.getElementById("loginSection").style.display = "none";
+      document.getElementById("uploadSection").style.display = "block";
+      document.getElementById("mediaSection").style.display = "block";
+      document.getElementById("userDisplay").textContent = currentUser;
+      showMedia();  // Show media if any
+    }
+
+    function uploadMedia() {
+      const media = document.getElementById("media").value;
+      if (media) {
+        users[currentUser].push(media);
+        document.getElementById("media").value = "";
+        showMedia();  // Update list
+      } else {
+        alert("Please enter media name.");
+      }
+    }
+
+    function showMedia() {
+      const list = document.getElementById("mediaList");
+      list.innerHTML = "";
+      users[currentUser].forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        list.appendChild(li);
+      });
+    }
+  </script>
+</body>
+</html>
